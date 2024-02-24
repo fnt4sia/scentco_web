@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.bona-nova-regular {
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
