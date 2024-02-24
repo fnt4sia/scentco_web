@@ -14,7 +14,7 @@ export default function Home() {
                     Image 2
                 </div>
             </div>
-            <div className='flex flex-nowrap py-4'>
+            <div className='flex flex-nowrap py-4 overflow-hidden'>
                 <div className='min-w-full flex justify-center items-center'>Slider 1</div>
                 <div className='min-w-full flex justify-center items-center'>Slider 2</div>
                 <div className='min-w-full flex justify-center items-center'>Slider 3</div>
