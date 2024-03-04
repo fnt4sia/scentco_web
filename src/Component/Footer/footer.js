@@ -3,9 +3,9 @@ import '../../index.css'
 
 export default function Footer() {
     return (
-        <div className='bg-black text-white py-8 md:py-16 lg:py-24 xl:py-32'>
+        <div className='bg-black text-white py-8 md:py-16 lg:pb-60 lg:pt-20'>
             <h3 className='bona-nova-regular text-2xl text-center md:text-3xl lg:text-4xl'>SCENTCo</h3>
-            <div className='px-6 md:flex justify-center md:px-20 gap-10 lg:gap-24'>
+            <div className='px-6 md:flex justify-center md:px-18 gap-10 lg:gap-24'>
                 <div className='mt-8 lg:mt-16'>
                     <h4 className='font-semibold text-sm lg:text-xl'>EXPLORE SCENTCO</h4>
                     <hr/>
