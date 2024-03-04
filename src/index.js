@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Fragrance from './Page/Fragrance';
+import Bodymist from './Page/Bodymist';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/bodymist",
-    element: <h1 className='text-center'>Belom Di Push, Sabar</h1>
+    element: <Bodymist/>
   },
   {
     path: "/bodymist/vanilla-milk",
