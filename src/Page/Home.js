@@ -48,12 +48,13 @@ export default function Home() {
                     <div className='min-w-full flex justify-center items-center'>Slider 3</div>
                     <div className='min-w-full flex justify-center items-center'>Slider 4</div>
                 </div>
-               <div className='absolute right-10 bottom-8 flex items-center w-1/2 justify-between'>
+               <div className='absolute left-1/2 -translate-x-1/2 bottom-8 flex items-center w-full justify-between px-8 md:px-16 lg:px-32'>
                     <button className='text-2xl lg:text-3xl' onClick={prevSlide}>&lt;</button>
-                    <button className='text-2xl lg:text-3xl' onClick={nextSlide}>&gt;</button>
+
                     <div className=' relative bg-gray-300 rounded-lg lg:w-4/5' style={{height: '2px', width: '70%'}}>
                         <div className='absolute h-full w-1/4 bg-black duration-500' style={{left: `${(slide) * 25}%`}}></div>
                     </div>
+                    <button className='text-2xl lg:text-3xl' onClick={nextSlide}>&gt;</button>
                </div>
             </div>
             <Footer />
