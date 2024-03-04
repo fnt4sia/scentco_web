@@ -5,6 +5,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Fragrance from './Page/Fragrance';
 
 const router = createBrowserRouter([
   {
@@ -13,11 +14,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/fragrance",
-    element: <h1>Hello Fragrance</h1>
+    element: <Fragrance />
   },
   {
     path: "/bodymist",
-    element: <h1>Hello BodyMist</h1>
+    element: <h1 className='text-center'>Belom Di Push, Sabar</h1>
   },
   {
     path: "/bodymist/vanilla-milk",
