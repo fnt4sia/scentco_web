@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/bodymist",
-    element: <Bodymist/>
+    element: <h1 className='text-center'>Coming Soon!</h1>
   },
   {
     path: "/bodymist/vanilla-milk",
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
   {
     path: "/bodymist/cheesecake",
     element: <h1>Hello Fragrance</h1>
-  },
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
