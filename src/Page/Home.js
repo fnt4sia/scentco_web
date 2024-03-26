@@ -47,7 +47,7 @@ export default function Home() {
                     </div>
                 </Link>
             </div>
-            <div className='relative h-96 md:h-128 lg:h-140 xl:h-180 flex py-4 my-4 md:my-8 lg:my-16 xl: my-20'>
+            <div className='relative h-96 md:h-128 lg:h-140 xl:h-180 flex py-4 my-4 md:my-8 lg:my-16 xl:my-20'>
                 <div className='flex flex-nowrap w-full duration-500' style={{transform : `translateX(-${slide * 100}%)`}}>
                     <div className='min-w-full flex justify-center items-center bg-black'>
                         <img src={slider1} className='w-full h-full object-cover opacity-60'/>

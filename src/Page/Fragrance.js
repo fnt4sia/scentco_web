@@ -40,9 +40,9 @@ export default function Fragrance(){
 
                 <section class="flex flex-col justify-center">
                     <div class="flex flex-col gap-5 lg:flex-row mt-20">
-                        <img class="h-64 lg:h-96 xl:h-108 w-full lg:w-2/3 rounded-lg md:h-80 object-cover " style={{ objectPosition: 'center' }} src={tipsy1}/>
+                        <img class="h-64 lg:h-96 xl:h-108 w-full lg:w-2/3 rounded-lg md:h-80 object-cover " src={tipsy1}/>
                         <div class="flex gap-5 lg:flex-col justify-start">
-                            <img class="w-1/2 lg:w-full lg:h-52 rounded-lg object-cover" src={tipsy2}/>
+                            <img class="w-1/2 lg:w-full lg:h-60 xl:h-80 rounded-lg object-cover " src={tipsy2}/>
                             <div>
                                 <h1 class="text-2xl lg:text-3xl">T.I.P.S.Y</h1>
                                 <p class=" p-1 text-xs lg:text-sm">
@@ -78,7 +78,7 @@ export default function Fragrance(){
                 <section class="my-12 flex flex-col justify-center">
                     <div class="flex flex-col-reverse gap-5 lg:flex-row">
                         <div class="flex gap-5 lg:flex-col justify-start">
-                            <img class="w-1/2 lg:w-full lg:h-52 rounded-lg object-cover" src={thumbs2}/>
+                            <img class="w-1/2 lg:w-full lg:h-60 xl:h-80 rounded-lg object-cover" src={thumbs2}/>
                             <div>
                                 <h1 class="text-2xl lg:text-3xl">Thumbs Up</h1>
                                 <p class=" p-1 text-xs lg:text-sm">
@@ -96,7 +96,7 @@ export default function Fragrance(){
                     <div class="flex flex-col gap-5 lg:flex-row mt-20">
                         <img class="h-64 lg:h-96 xl:h-108 w-full lg:w-2/3 object-cover rounded-lg md:h-80" src={warm2}/>
                         <div class="flex gap-4 lg:flex-col justify-start">
-                            <img class="w-1/2 lg:w-full lg:h-52 rounded-lg object-cover" src={warm1}/>
+                            <img class="w-1/2 lg:w-full lg:h-60 xl:h-80 rounded-lg object-cover" src={warm1}/>
                             <div>
                                 <h1 class="text-2xl lg:text-3xl">Warm Intense</h1>
                                 <p class=" p-1 text-xs lg:text-sm">
